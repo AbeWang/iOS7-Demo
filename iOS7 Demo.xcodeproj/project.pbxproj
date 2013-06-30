@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30319EFE1780485A00320A93 /* AWMotionEffectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30319EFD1780485A00320A93 /* AWMotionEffectsViewController.m */; };
+		30319F0117804B3D00320A93 /* demoMotionEffects.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 30319F0017804B3D00320A93 /* demoMotionEffects.JPG */; };
+		30319F041780A11B00320A93 /* AWColorMotionEffectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30319F031780A11B00320A93 /* AWColorMotionEffectsViewController.m */; };
+		30319F0A1780A27000320A93 /* AWColorMotionEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 30319F091780A27000320A93 /* AWColorMotionEffect.m */; };
 		303EB0C8177E86AD00A00A30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303EB0C7177E86AD00A00A30 /* Foundation.framework */; };
 		303EB0CA177E86AD00A00A30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303EB0C9177E86AD00A00A30 /* CoreGraphics.framework */; };
 		303EB0CC177E86AD00A00A30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303EB0CB177E86AD00A00A30 /* UIKit.framework */; };
@@ -46,6 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30319EFC1780485A00320A93 /* AWMotionEffectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWMotionEffectsViewController.h; path = "Class/Motion Effects/AWMotionEffectsViewController.h"; sourceTree = "<group>"; };
+		30319EFD1780485A00320A93 /* AWMotionEffectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWMotionEffectsViewController.m; path = "Class/Motion Effects/AWMotionEffectsViewController.m"; sourceTree = "<group>"; };
+		30319F0017804B3D00320A93 /* demoMotionEffects.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = demoMotionEffects.JPG; path = "iOS7 Dmo/Resources/demoMotionEffects.JPG"; sourceTree = "<group>"; };
+		30319F021780A11B00320A93 /* AWColorMotionEffectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWColorMotionEffectsViewController.h; path = "Class/Motion Effects/AWColorMotionEffectsViewController.h"; sourceTree = "<group>"; };
+		30319F031780A11B00320A93 /* AWColorMotionEffectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWColorMotionEffectsViewController.m; path = "Class/Motion Effects/AWColorMotionEffectsViewController.m"; sourceTree = "<group>"; };
+		30319F081780A27000320A93 /* AWColorMotionEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWColorMotionEffect.h; path = "Class/Motion Effects/AWColorMotionEffect.h"; sourceTree = "<group>"; };
+		30319F091780A27000320A93 /* AWColorMotionEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWColorMotionEffect.m; path = "Class/Motion Effects/AWColorMotionEffect.m"; sourceTree = "<group>"; };
 		303EB0C4177E86AD00A00A30 /* iOS7 Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS7 Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		303EB0C7177E86AD00A00A30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		303EB0C9177E86AD00A00A30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -116,11 +127,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30319EFF17804B1C00320A93 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30319F0017804B3D00320A93 /* demoMotionEffects.JPG */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		303EB0BB177E86AD00A00A30 = {
 			isa = PBXGroup;
 			children = (
 				303EB0CD177E86AD00A00A30 /* iOS7 Demo */,
 				303EB0E6177E86AD00A00A30 /* iOS7 DemoTests */,
+				30319EFF17804B1C00320A93 /* Resources */,
 				303EB0C6177E86AD00A00A30 /* Frameworks */,
 				303EB0C5177E86AD00A00A30 /* Products */,
 			);
@@ -231,6 +251,12 @@
 		303EB0FB177E910300A00A30 /* MotionEffects */ = {
 			isa = PBXGroup;
 			children = (
+				30319EFC1780485A00320A93 /* AWMotionEffectsViewController.h */,
+				30319EFD1780485A00320A93 /* AWMotionEffectsViewController.m */,
+				30319F021780A11B00320A93 /* AWColorMotionEffectsViewController.h */,
+				30319F031780A11B00320A93 /* AWColorMotionEffectsViewController.m */,
+				30319F081780A27000320A93 /* AWColorMotionEffect.h */,
+				30319F091780A27000320A93 /* AWColorMotionEffect.m */,
 			);
 			name = MotionEffects;
 			sourceTree = "<group>";
@@ -373,6 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				303EB0D2177E86AD00A00A30 /* InfoPlist.strings in Resources */,
+				30319F0117804B3D00320A93 /* demoMotionEffects.JPG in Resources */,
 				303EB0DA177E86AD00A00A30 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +422,7 @@
 				303EB0F8177E8A7800A00A30 /* AWDemoViewController.m in Sources */,
 				303EB0D8177E86AD00A00A30 /* AWAppDelegate.m in Sources */,
 				3098A500177FE871000D91AA /* AWGravityCollisionViewController.m in Sources */,
+				30319EFE1780485A00320A93 /* AWMotionEffectsViewController.m in Sources */,
 				303EB0FF177E916F00A00A30 /* AWTransitionOneViewController.m in Sources */,
 				30D563CF177ED40E00EE224E /* AWBlurredBackgroundViewController.m in Sources */,
 				3098A50817802B2D000D91AA /* AWGravityCollisionSpringViewController.m in Sources */,
@@ -402,6 +430,8 @@
 				303EB0D4177E86AD00A00A30 /* main.m in Sources */,
 				30D563D2177EDD1400EE224E /* UIImage+ImageEffects.m in Sources */,
 				30D563CB177EC74900EE224E /* AWDismissAnimator.m in Sources */,
+				30319F041780A11B00320A93 /* AWColorMotionEffectsViewController.m in Sources */,
+				30319F0A1780A27000320A93 /* AWColorMotionEffect.m in Sources */,
 				3098A5101780368A000D91AA /* AWSnapViewController.m in Sources */,
 				3098A5041780151B000D91AA /* AWAttachmentViewController.m in Sources */,
 				30D563C8177EC71F00EE224E /* AWPresentAnimator.m in Sources */,

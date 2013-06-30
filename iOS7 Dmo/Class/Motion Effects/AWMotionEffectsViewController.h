@@ -1,0 +1,3 @@
+@interface AWMotionEffectsViewController : UIViewController
+
+@end

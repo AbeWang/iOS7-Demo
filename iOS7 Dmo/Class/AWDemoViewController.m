@@ -2,6 +2,7 @@
 #import "AWTransitionOneViewController.h"
 #import "AWBlurredBackgroundViewController.h"
 #import "AWDynamicDemoViewController.h"
+#import "AWMotionEffectsViewController.h"
 
 @implementation AWDemoViewController
 {
@@ -70,6 +71,10 @@
             break;
         // Motion Effects
         case 3:
+        {
+            AWMotionEffectsViewController *controller = [[AWMotionEffectsViewController alloc] init];
+            [[self navigationController] pushViewController:controller animated:YES];
+        }
             break;
         // JavaScriptCore
         case 5:

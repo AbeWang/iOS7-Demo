@@ -1,0 +1,3 @@
+@interface AWColorMotionEffect : UIMotionEffect
+
+@end
