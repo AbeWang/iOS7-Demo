@@ -1,0 +1,3 @@
+@interface AWBlurredBackgroundViewController : UIViewController
+
+@end
