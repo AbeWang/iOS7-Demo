@@ -3,6 +3,7 @@
 #import "AWBlurredBackgroundViewController.h"
 #import "AWDynamicDemoViewController.h"
 #import "AWMotionEffectsViewController.h"
+#import "AWJSCoreDemoViewController.h"
 
 @implementation AWDemoViewController
 {
@@ -77,7 +78,11 @@
         }
             break;
         // JavaScriptCore
-        case 5:
+        case 4:
+        {
+            AWJSCoreDemoViewController *controller = [[AWJSCoreDemoViewController alloc] init];
+            [[self navigationController] pushViewController:controller animated:YES];
+        }
             break;
     }
 }

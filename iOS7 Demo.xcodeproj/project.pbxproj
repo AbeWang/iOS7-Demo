@@ -26,6 +26,7 @@
 		303EB0F8177E8A7800A00A30 /* AWDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 303EB0F7177E87CD00A00A30 /* AWDemoViewController.m */; };
 		303EB0FF177E916F00A00A30 /* AWTransitionOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 303EB0FE177E916F00A00A30 /* AWTransitionOneViewController.m */; };
 		303EB102177E919C00A00A30 /* AWTransitionTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 303EB101177E919C00A00A30 /* AWTransitionTwoViewController.m */; };
+		306AC3491781E58C008A947A /* AWJSCoreDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 306AC3481781E58C008A947A /* AWJSCoreDemoViewController.m */; };
 		3098A4FC177FD731000D91AA /* AWDynamicDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3098A4FB177FD731000D91AA /* AWDynamicDemoViewController.m */; };
 		3098A500177FE871000D91AA /* AWGravityCollisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3098A4FF177FE422000D91AA /* AWGravityCollisionViewController.m */; };
 		3098A5041780151B000D91AA /* AWAttachmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3098A5031780151B000D91AA /* AWAttachmentViewController.m */; };
@@ -79,6 +80,8 @@
 		303EB0FE177E916F00A00A30 /* AWTransitionOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWTransitionOneViewController.m; path = "Class/Custom Transitions/AWTransitionOneViewController.m"; sourceTree = "<group>"; };
 		303EB100177E919C00A00A30 /* AWTransitionTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWTransitionTwoViewController.h; path = "Class/Custom Transitions/AWTransitionTwoViewController.h"; sourceTree = "<group>"; };
 		303EB101177E919C00A00A30 /* AWTransitionTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWTransitionTwoViewController.m; path = "Class/Custom Transitions/AWTransitionTwoViewController.m"; sourceTree = "<group>"; };
+		306AC3471781E58C008A947A /* AWJSCoreDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWJSCoreDemoViewController.h; path = "Class/JavaScript Core/AWJSCoreDemoViewController.h"; sourceTree = "<group>"; };
+		306AC3481781E58C008A947A /* AWJSCoreDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWJSCoreDemoViewController.m; path = "Class/JavaScript Core/AWJSCoreDemoViewController.m"; sourceTree = "<group>"; };
 		3098A4FA177FD731000D91AA /* AWDynamicDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWDynamicDemoViewController.h; path = "Class/UIKit Dynamics/AWDynamicDemoViewController.h"; sourceTree = "<group>"; };
 		3098A4FB177FD731000D91AA /* AWDynamicDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWDynamicDemoViewController.m; path = "Class/UIKit Dynamics/AWDynamicDemoViewController.m"; sourceTree = "<group>"; };
 		3098A4FE177FE422000D91AA /* AWGravityCollisionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AWGravityCollisionViewController.h; path = "Class/UIKit Dynamics/AWGravityCollisionViewController.h"; sourceTree = "<group>"; };
@@ -264,6 +267,8 @@
 		303EB0FC177E911900A00A30 /* JSCore */ = {
 			isa = PBXGroup;
 			children = (
+				306AC3471781E58C008A947A /* AWJSCoreDemoViewController.h */,
+				306AC3481781E58C008A947A /* AWJSCoreDemoViewController.m */,
 			);
 			name = JSCore;
 			sourceTree = "<group>";
@@ -420,6 +425,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				303EB0F8177E8A7800A00A30 /* AWDemoViewController.m in Sources */,
+				306AC3491781E58C008A947A /* AWJSCoreDemoViewController.m in Sources */,
 				303EB0D8177E86AD00A00A30 /* AWAppDelegate.m in Sources */,
 				3098A500177FE871000D91AA /* AWGravityCollisionViewController.m in Sources */,
 				30319EFE1780485A00320A93 /* AWMotionEffectsViewController.m in Sources */,
