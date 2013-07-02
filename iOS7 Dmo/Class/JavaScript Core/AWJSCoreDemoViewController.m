@@ -1,4 +1,6 @@
 #import "AWJSCoreDemoViewController.h"
+#import "AWObjCToJSViewController.h"
+#import "AWJSToObjCViewController.h"
 
 @implementation AWJSCoreDemoViewController
 {
@@ -37,6 +39,24 @@
 - (void)tableView:(UITableView *)inTableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [inTableView deselectRowAtIndexPath:indexPath animated:YES];
+	switch (indexPath.row) {
+		// Objective-C -> JavaScript
+		case 0:
+		{
+			AWObjCToJSViewController *controller = [[AWObjCToJSViewController alloc] init];
+			[self.navigationController pushViewController:controller animated:YES];
+		}
+			break;
+		// JavaScript -> Objective-C
+		case 1:
+		{
+			AWJSToObjCViewController *controller = [[AWJSToObjCViewController alloc] init];
+			[self.navigationController pushViewController:controller animated:YES];
+		}
+			break;
+		default:
+			break;
+	}
 }
 
 @end

@@ -1,0 +1,3 @@
+@interface AWObjCToJSViewController : UIViewController
+
+@end

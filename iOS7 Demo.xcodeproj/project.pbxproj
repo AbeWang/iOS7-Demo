@@ -33,6 +33,9 @@
 		3098A50817802B2D000D91AA /* AWGravityCollisionSpringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3098A50717802B2D000D91AA /* AWGravityCollisionSpringViewController.m */; };
 		3098A50C1780335B000D91AA /* AWDynamicItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3098A50B1780335B000D91AA /* AWDynamicItemViewController.m */; };
 		3098A5101780368A000D91AA /* AWSnapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3098A50F1780368A000D91AA /* AWSnapViewController.m */; };
+		30A4BF9B17826BFA00D17A3F /* AWJSToObjCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A4BF9A17826BFA00D17A3F /* AWJSToObjCViewController.m */; };
+		30A4BF9E17826C8E00D17A3F /* AWObjCToJSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A4BF9D17826C2100D17A3F /* AWObjCToJSViewController.m */; };
+		30A4BFA017826E7500D17A3F /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A4BF9F17826E7500D17A3F /* JavaScriptCore.framework */; };
 		30D563C2177EB96000EE224E /* AWTransitionBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D563C1177EB96000EE224E /* AWTransitionBackgroundView.m */; };
 		30D563C8177EC71F00EE224E /* AWPresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D563C7177EC71F00EE224E /* AWPresentAnimator.m */; };
 		30D563CB177EC74900EE224E /* AWDismissAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D563CA177EC74900EE224E /* AWDismissAnimator.m */; };
@@ -94,6 +97,11 @@
 		3098A50B1780335B000D91AA /* AWDynamicItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWDynamicItemViewController.m; path = "Class/UIKit Dynamics/AWDynamicItemViewController.m"; sourceTree = "<group>"; };
 		3098A50E1780368A000D91AA /* AWSnapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWSnapViewController.h; path = "Class/UIKit Dynamics/AWSnapViewController.h"; sourceTree = "<group>"; };
 		3098A50F1780368A000D91AA /* AWSnapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSnapViewController.m; path = "Class/UIKit Dynamics/AWSnapViewController.m"; sourceTree = "<group>"; };
+		30A4BF9917826BFA00D17A3F /* AWJSToObjCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWJSToObjCViewController.h; path = "Class/JavaScript Core/AWJSToObjCViewController.h"; sourceTree = "<group>"; };
+		30A4BF9A17826BFA00D17A3F /* AWJSToObjCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWJSToObjCViewController.m; path = "Class/JavaScript Core/AWJSToObjCViewController.m"; sourceTree = "<group>"; };
+		30A4BF9C17826C2100D17A3F /* AWObjCToJSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AWObjCToJSViewController.h; path = "Class/JavaScript Core/AWObjCToJSViewController.h"; sourceTree = "<group>"; };
+		30A4BF9D17826C2100D17A3F /* AWObjCToJSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AWObjCToJSViewController.m; path = "Class/JavaScript Core/AWObjCToJSViewController.m"; sourceTree = "<group>"; };
+		30A4BF9F17826E7500D17A3F /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		30D563C0177EB96000EE224E /* AWTransitionBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWTransitionBackgroundView.h; path = "Class/Custom Transitions/AWTransitionBackgroundView.h"; sourceTree = "<group>"; };
 		30D563C1177EB96000EE224E /* AWTransitionBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWTransitionBackgroundView.m; path = "Class/Custom Transitions/AWTransitionBackgroundView.m"; sourceTree = "<group>"; };
 		30D563C6177EC71F00EE224E /* AWPresentAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWPresentAnimator.h; path = "Class/Custom Transitions/AWPresentAnimator.h"; sourceTree = "<group>"; };
@@ -111,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A4BFA017826E7500D17A3F /* JavaScriptCore.framework in Frameworks */,
 				303EB0CA177E86AD00A00A30 /* CoreGraphics.framework in Frameworks */,
 				303EB0CC177E86AD00A00A30 /* UIKit.framework in Frameworks */,
 				303EB0C8177E86AD00A00A30 /* Foundation.framework in Frameworks */,
@@ -161,6 +170,7 @@
 		303EB0C6177E86AD00A00A30 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				30A4BF9F17826E7500D17A3F /* JavaScriptCore.framework */,
 				303EB0C7177E86AD00A00A30 /* Foundation.framework */,
 				303EB0C9177E86AD00A00A30 /* CoreGraphics.framework */,
 				303EB0CB177E86AD00A00A30 /* UIKit.framework */,
@@ -269,6 +279,10 @@
 			children = (
 				306AC3471781E58C008A947A /* AWJSCoreDemoViewController.h */,
 				306AC3481781E58C008A947A /* AWJSCoreDemoViewController.m */,
+				30A4BF9917826BFA00D17A3F /* AWJSToObjCViewController.h */,
+				30A4BF9A17826BFA00D17A3F /* AWJSToObjCViewController.m */,
+				30A4BF9C17826C2100D17A3F /* AWObjCToJSViewController.h */,
+				30A4BF9D17826C2100D17A3F /* AWObjCToJSViewController.m */,
 			);
 			name = JSCore;
 			sourceTree = "<group>";
@@ -430,6 +444,7 @@
 				3098A500177FE871000D91AA /* AWGravityCollisionViewController.m in Sources */,
 				30319EFE1780485A00320A93 /* AWMotionEffectsViewController.m in Sources */,
 				303EB0FF177E916F00A00A30 /* AWTransitionOneViewController.m in Sources */,
+				30A4BF9E17826C8E00D17A3F /* AWObjCToJSViewController.m in Sources */,
 				30D563CF177ED40E00EE224E /* AWBlurredBackgroundViewController.m in Sources */,
 				3098A50817802B2D000D91AA /* AWGravityCollisionSpringViewController.m in Sources */,
 				30D563C2177EB96000EE224E /* AWTransitionBackgroundView.m in Sources */,
@@ -441,6 +456,7 @@
 				3098A5101780368A000D91AA /* AWSnapViewController.m in Sources */,
 				3098A5041780151B000D91AA /* AWAttachmentViewController.m in Sources */,
 				30D563C8177EC71F00EE224E /* AWPresentAnimator.m in Sources */,
+				30A4BF9B17826BFA00D17A3F /* AWJSToObjCViewController.m in Sources */,
 				3098A50C1780335B000D91AA /* AWDynamicItemViewController.m in Sources */,
 				3098A4FC177FD731000D91AA /* AWDynamicDemoViewController.m in Sources */,
 				303EB102177E919C00A00A30 /* AWTransitionTwoViewController.m in Sources */,
